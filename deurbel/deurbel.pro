@@ -1,4 +1,4 @@
-update=2020-01-24 11:30:42 AM
+update=21-2-2020 17:32:03
 version=1
 last_client=kicad
 [general]
@@ -39,5 +39,5 @@ SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
 SpiceAjustPassiveValues=0
-LabSize=40
+LabSize=30
 ERC_TestSimilarLabels=1

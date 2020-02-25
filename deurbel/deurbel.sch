@@ -17,12 +17,12 @@ $EndDescr
 $Comp
 L MCU_Module:WeMos_D1_mini U?
 U 1 1 5E25E6F9
-P 2800 2400
-F 0 "U?" V 2550 1850 50  0000 C CNN
-F 1 "WeMos_D1_mini" V 2450 1975 50  0000 C CNN
-F 2 "Module:WEMOS_D1_mini_light" H 2800 1250 50  0001 C CNN
-F 3 "https://wiki.wemos.cc/products:d1:d1_mini#documentation" H 950 1250 50  0001 C CNN
-	1    2800 2400
+P 2475 1750
+F 0 "U?" V 2225 1200 50  0000 C CNN
+F 1 "WeMos_D1_mini" V 2125 1325 50  0000 C CNN
+F 2 "Module:WEMOS_D1_mini_light" H 2475 600 50  0001 C CNN
+F 3 "https://wiki.wemos.cc/products:d1:d1_mini#documentation" H 625 600 50  0001 C CNN
+	1    2475 1750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -72,34 +72,34 @@ $EndComp
 $Comp
 L Device:Buzzer BZ?
 U 1 1 5E2A544C
-P 3725 3750
-F 0 "BZ?" H 3877 3779 50  0000 L CNN
-F 1 "Buzzer" H 3877 3688 50  0000 L CNN
-F 2 "" V 3700 3850 50  0001 C CNN
-F 3 "~" V 3700 3850 50  0001 C CNN
-	1    3725 3750
+P 3650 4025
+F 0 "BZ?" H 3802 4054 50  0000 L CNN
+F 1 "Buzzer" H 3802 3963 50  0000 L CNN
+F 2 "" V 3625 4125 50  0001 C CNN
+F 3 "~" V 3625 4125 50  0001 C CNN
+	1    3650 4025
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D?
 U 1 1 5E2A6735
-P 1500 3000
-F 0 "D?" H 1493 3216 50  0000 C CNN
-F 1 "LED" H 1493 3125 50  0000 C CNN
-F 2 "" H 1500 3000 50  0001 C CNN
-F 3 "~" H 1500 3000 50  0001 C CNN
-	1    1500 3000
+P 1175 2350
+F 0 "D?" H 1168 2566 50  0000 C CNN
+F 1 "LED" H 1168 2475 50  0000 C CNN
+F 2 "" H 1175 2350 50  0001 C CNN
+F 3 "~" H 1175 2350 50  0001 C CNN
+	1    1175 2350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5E2A816C
-P 2050 3000
-F 0 "R?" V 2257 3000 50  0000 C CNN
-F 1 "R" V 2166 3000 50  0000 C CNN
-F 2 "" V 1980 3000 50  0001 C CNN
-F 3 "~" H 2050 3000 50  0001 C CNN
-	1    2050 3000
+P 1725 2350
+F 0 "R?" V 1932 2350 30  0000 C CNN
+F 1 "R" V 1841 2350 30  0000 C CNN
+F 2 "" V 1655 2350 30  0001 C CNN
+F 3 "~" H 1725 2350 30  0001 C CNN
+	1    1725 2350
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -132,26 +132,26 @@ Text Label 7050 2625 0    40   ~ 0
 +5v
 Wire Wire Line
 	6875 2625 7300 2625
-Text Label 2700 1425 3    40   ~ 0
+Text Label 2375 775  3    40   ~ 0
 +5v
 $Comp
 L Amplifier_Operational:LM358 U?
 U 1 1 5E2C42CD
-P 1875 4025
-F 0 "U?" H 1875 4392 50  0000 C CNN
-F 1 "LM358" H 1875 4301 50  0000 C CNN
-F 2 "" H 1875 4025 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 1875 4025 50  0001 C CNN
-	1    1875 4025
+P 2125 3925
+F 0 "U?" H 2075 3975 30  0000 C CNN
+F 1 "LM358" H 2075 3925 30  0000 C CNN
+F 2 "" H 2125 3925 30  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 2125 3925 30  0001 C CNN
+	1    2125 3925
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2400 2000 1950 2000
+	2075 1350 1625 1350
 Wire Wire Line
-	3200 2000 3700 2000
-Text Label 2075 2000 0    40   ~ 0
+	2875 1350 3375 1350
+Text Label 1750 1350 0    40   ~ 0
 RST
-Text Label 3325 2000 0    40   ~ 0
+Text Label 3000 1350 0    40   ~ 0
 D0
 $Comp
 L pspice:DIODE D?
@@ -204,7 +204,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 5100 3500 5100
 Wire Wire Line
-	2700 1600 2700 1450
+	2375 950  2375 800 
 Text Label 3325 5100 2    40   ~ 0
 +5v
 Wire Wire Line
@@ -216,10 +216,10 @@ Wire Wire Line
 Text Label 3250 6250 0    40   ~ 0
 D0
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 5E2E1344
 P 2650 6775
-F 0 "#PWR?" H 2650 6525 50  0001 C CNN
+F 0 "#PWR0101" H 2650 6525 50  0001 C CNN
 F 1 "GND" H 2655 6602 50  0000 C CNN
 F 2 "" H 2650 6775 50  0001 C CNN
 F 3 "" H 2650 6775 50  0001 C CNN
@@ -285,12 +285,12 @@ Text Label 3250 7100 0    40   ~ 0
 D2
 Connection ~ 1150 6050
 Wire Wire Line
-	3200 2200 3700 2200
-Text Label 3325 2200 0    40   ~ 0
+	2875 1550 3375 1550
+Text Label 3000 1550 0    40   ~ 0
 D2
 Wire Wire Line
-	2800 3200 2800 3450
-Text Label 2800 3375 1    40   ~ 0
+	2425 2500 2425 2750
+Text Label 2425 2675 1    40   ~ 0
 GND
 Wire Notes Line
 	650  4700 650  7350
@@ -302,16 +302,198 @@ Wire Notes Line
 	3800 4700 650  4700
 Text Notes 700  4800 0    40   ~ 0
 esp8266-deep-sleep-mode-test-wake-pir-motion-detector
-Wire Wire Line
-	3625 3650 3375 3650
-Text Label 3600 3850 2    40   ~ 0
+Text Label 3525 4125 2    30   ~ 0
 GND
-Wire Wire Line
-	3625 3850 3375 3850
-Text Label 3600 3650 2    40   ~ 0
+Text Label 3525 3925 2    30   ~ 0
 Buzzer
 Wire Wire Line
-	3200 2300 3700 2300
-Text Label 3525 2300 2    40   ~ 0
-Buzzer
+	2875 1650 3375 1650
+Text Label 3200 1650 2    40   ~ 0
+geluid_uit
+NoConn ~ 2075 1650
+NoConn ~ 2075 1750
+NoConn ~ 2875 2150
+NoConn ~ 2875 2050
+NoConn ~ 2875 1950
+NoConn ~ 2875 1850
+NoConn ~ 2875 1750
+$Comp
+L power:+5V #PWR0102
+U 1 1 5E4FF3FD
+P 2375 800
+F 0 "#PWR0102" H 2375 650 50  0001 C CNN
+F 1 "+5V" H 2390 973 50  0000 C CNN
+F 2 "" H 2375 800 50  0001 C CNN
+F 3 "" H 2375 800 50  0001 C CNN
+	1    2375 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5E5019FB
+P 2425 2750
+F 0 "#PWR0103" H 2425 2500 50  0001 C CNN
+F 1 "GND" H 2430 2577 50  0000 C CNN
+F 2 "" H 2425 2750 50  0001 C CNN
+F 3 "" H 2425 2750 50  0001 C CNN
+	1    2425 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E502514
+P 2200 4375
+F 0 "R?" V 2125 4375 30  0000 C CNN
+F 1 "R10K" V 2200 4375 30  0000 C CNN
+F 2 "" V 2130 4375 30  0001 C CNN
+F 3 "~" H 2200 4375 30  0001 C CNN
+	1    2200 4375
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E5090E3
+P 1225 4025
+F 0 "R?" V 1300 4025 30  0000 C CNN
+F 1 "R1K" V 1225 4025 30  0000 C CNN
+F 2 "" V 1155 4025 30  0001 C CNN
+F 3 "~" H 1225 4025 30  0001 C CNN
+F 4 "R" H 1225 4025 50  0001 C CNN "Spice_Primitive"
+F 5 "1K" H 1225 4025 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 1225 4025 50  0001 C CNN "Spice_Netlist_Enabled"
+	1    1225 4025
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E51D43F
+P 2950 3925
+F 0 "C?" V 2745 3925 30  0000 C CNN
+F 1 "10uF" V 2805 3925 30  0000 C CNN
+F 2 "" H 2988 3775 30  0001 C CNN
+F 3 "~" H 2950 3925 30  0001 C CNN
+F 4 "C" H 2950 3925 30  0001 C CNN "Spice_Primitive"
+F 5 "10u" H 2950 3925 30  0001 C CNN "Spice_Model"
+F 6 "Y" H 2950 3925 30  0001 C CNN "Spice_Netlist_Enabled"
+	1    2950 3925
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 5E51E660
+P 775 4025
+F 0 "J?" V 875 3975 30  0000 L CNN
+F 1 "audio_in" V 925 3900 30  0000 L CNN
+F 2 "" H 775 4025 30  0001 C CNN
+F 3 "~" H 775 4025 30  0001 C CNN
+	1    775  4025
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3100 3925 3550 3925
+$Comp
+L power:GND #PWR?
+U 1 1 5E53D47E
+P 3300 4150
+F 0 "#PWR?" H 3300 3900 50  0001 C CNN
+F 1 "GND" H 3300 4000 50  0000 C CNN
+F 2 "" H 3300 4150 50  0001 C CNN
+F 3 "" H 3300 4150 50  0001 C CNN
+	1    3300 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E53E85A
+P 1075 3900
+F 0 "#PWR?" H 1075 3650 30  0001 C CNN
+F 1 "GND" H 1075 3775 30  0000 C CNN
+F 2 "" H 1075 3900 30  0001 C CNN
+F 3 "" H 1075 3900 30  0001 C CNN
+	1    1075 3900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3550 4125 3300 4125
+Wire Wire Line
+	3300 4125 3300 4150
+Wire Notes Line
+	575  4625 4075 4625
+Text Notes 575  3325 0    30   ~ 0
+Inverting OpAmp gain=1,288
+Wire Wire Line
+	2425 3925 2625 3925
+$Comp
+L Device:R_POT RV?
+U 1 1 5E58989F
+P 1650 3500
+F 0 "RV?" V 1575 3500 30  0000 C CNN
+F 1 "R_10K" V 1650 3500 30  0000 C CNN
+F 2 "" H 1650 3500 50  0001 C CNN
+F 3 "~" H 1650 3500 50  0001 C CNN
+	1    1650 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1650 3650 1650 3825
+Wire Wire Line
+	1650 3825 1825 3825
+Wire Wire Line
+	1500 3500 1325 3500
+Wire Wire Line
+	1800 3500 2000 3500
+$Comp
+L power:GND #PWR?
+U 1 1 5E591481
+P 2000 3500
+F 0 "#PWR?" H 2000 3250 50  0001 C CNN
+F 1 "GND" V 2075 3500 30  0000 R CNN
+F 2 "" H 2000 3500 50  0001 C CNN
+F 3 "" H 2000 3500 50  0001 C CNN
+	1    2000 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E5924F0
+P 1325 3500
+F 0 "#PWR?" H 1325 3350 50  0001 C CNN
+F 1 "+5V" V 1375 3525 30  0000 L CNN
+F 2 "" H 1325 3500 50  0001 C CNN
+F 3 "" H 1325 3500 50  0001 C CNN
+	1    1325 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1375 4025 1650 4025
+Wire Wire Line
+	1075 4025 975  4025
+Wire Wire Line
+	1075 3900 1075 3925
+Wire Wire Line
+	1075 3925 975  3925
+Wire Wire Line
+	2050 4375 1650 4375
+Wire Wire Line
+	1650 4375 1650 4025
+Connection ~ 1650 4025
+Wire Wire Line
+	1650 4025 1825 4025
+Wire Wire Line
+	2350 4375 2625 4375
+Wire Wire Line
+	2625 4375 2625 3925
+Connection ~ 2625 3925
+Wire Wire Line
+	2625 3925 2800 3925
+Wire Notes Line
+	575  4625 575  3275
+Wire Notes Line
+	575  3275 4075 3275
+Wire Notes Line
+	4075 3275 4075 4625
+Wire Notes Line
+	575  3350 1250 3350
+Wire Notes Line
+	1250 3350 1250 3275
 $EndSCHEMATC
