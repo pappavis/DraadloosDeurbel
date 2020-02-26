@@ -1,8 +1,3 @@
-# deurbel
-Wemos D1 Mini - ESP8266 deurbel
+Werk in uitvoering.
 
-20200124.
-# Werk in uitvoering.
-
-
-<img src="https://github.com/pappavis/deurbel/blob/master/deurbel/plaatjes/IMG_5873.jpg?raw=true" height="30%" width="30%">
+<img src="https://github.com/pappavis/deurbel/blob/master/deurbel/plaatjes/schema1.jpg?raw=true" width="60%" height="60%">
