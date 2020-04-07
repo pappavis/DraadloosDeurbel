@@ -7,4 +7,4 @@ Werk in uitvoering 0.0.1.
  - Totally unusable. 
  - Work in progress. 
 
-<img src="https://github.com/pappavis/deurbel/blob/master/plaatjes/schema1.jpg?raw=true" width="60%" height="60%">
+<img src="https://github.com/pappavis/deurbel/blob/master/plaatjes/deurbel_basislogica%20_in_circuitjs.jpg?raw=true" width="60%" height="60%">
