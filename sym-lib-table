@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name DB107S)(type Legacy)(uri ${KIPRJMOD}/library/DB107S.lib)(options "")(descr gelijkrichter))
-  (lib (name PK-12N40PQ)(type Legacy)(uri ${KIPRJMOD}/library/PK-12N40PQ.lib)(options "")(descr pieezo))
-)
