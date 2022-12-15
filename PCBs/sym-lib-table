@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "TP4056")(type "KiCad")(uri "${KIPRJMOD}/lib/TP4056.kicad_sym")(options "")(descr ""))
+  (lib (name "EasyLab4Kids")(type "KiCad")(uri "${KIPRJMOD}/EasyLab4Kids.kicad_sym")(options "")(descr ""))
+)
