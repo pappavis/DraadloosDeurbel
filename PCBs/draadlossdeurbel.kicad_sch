@@ -1725,10 +1725,10 @@
   (symbol (lib_id "Device:LED") (at 93.98 55.88 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 37e60867-fcfc-4a83-95aa-23a504162dab)
-    (property "Reference" "D1" (id 0) (at 97.79 56.1974 90)
+    (property "Reference" "D1" (id 0) (at 97.79 56.8325 90)
       (effects (font (size 0.66 0.66)) (justify right))
     )
-    (property "Value" "LED" (id 1) (at 97.79 58.7374 90)
+    (property "Value" "LED-R" (id 1) (at 97.79 59.3725 90)
       (effects (font (size 0.66 0.66)) (justify right))
     )
     (property "Footprint" "" (id 2) (at 93.98 55.88 0)
@@ -2235,7 +2235,7 @@
       (reference "C?") (unit 1) (value "0.05uF") (footprint "")
     )
     (path "/37e60867-fcfc-4a83-95aa-23a504162dab"
-      (reference "D1") (unit 1) (value "LED") (footprint "")
+      (reference "D1") (unit 1) (value "LED-R") (footprint "")
     )
     (path "/2d610dfd-d102-495c-b231-c5a0cd02efc6"
       (reference "J1") (unit 1) (value "AudioJack4_Ground") (footprint "")
