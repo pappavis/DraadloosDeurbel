@@ -1,4 +1,7 @@
 (sym_lib_table
+  (version 7)
   (lib (name "TP4056")(type "KiCad")(uri "${KIPRJMOD}/lib/TP4056.kicad_sym")(options "")(descr ""))
   (lib (name "EasyLab4Kids")(type "KiCad")(uri "${KIPRJMOD}/EasyLab4Kids.kicad_sym")(options "")(descr ""))
+  (lib (name "8580sid")(type "Legacy")(uri "${KIPRJMOD}/lib/8580sid.lib")(options "")(descr ""))
+  (lib (name "65xx")(type "KiCad")(uri "${KIPRJMOD}/lib/65xx.kicad_sym")(options "")(descr ""))
 )
