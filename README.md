@@ -1,7 +1,8 @@
 # Synopsys
 ESP8266 deurbel aan te sluiten op wisselstroom max 20v 1A.
 
-Werk in uitvoering 0.0.1.
+Werk in uitvoering 0.0.1.<br>
+<img src="https://github.com/pappavis/DraadloosDeurbel/blob/master/plaatjes/draadloosDeurbel_wemos_KiCAD.jpg?raw=true" width="30%" height="30%"><br>
 
 # STATUS:
  - Totally unusable. 
