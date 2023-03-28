@@ -1,0 +1,27 @@
+KiCad schematic
+R3 Net-_R3-Pad1_ Net-_C1-Pad2_ R1k
+U2 __U2
+J2 __J2
+J3 __J3
+C2 /AUDIO_UIT Net-_C2-Pad2_ 250u
+BZ1 __BZ1
+Q1 __Q1
+R1 Net-_C2-Pad2_ Net-_Q1-E_ volume_pot
+C4 GND /AUDIO_UIT 50n
+C3 GND GND 10u
+C1 Net-_C1-Pad1_ Net-_C1-Pad2_ 50n
+J1 __J1
+U1 __U1
+R5 GND Net-_U3-A2_ R10k
+R4 GND /A1 R10k
+R2 GND /A0 R10k
+U3 __U3
+D2 __D2
+R8 Net-_U1-SCK/D5_ Net-_D2-A_ R1k
+D1 __D1
+R7 Net-_D1-A_ Zoemer R100
+R6 Net-_Q2-E_ Net-_J1-PadT_ R100
+Q2 __Q2
+J4 __J4
+U4 __U4
+.end
